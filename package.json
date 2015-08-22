@@ -2,7 +2,15 @@
   "name": "node-fuzzy",
   "version": "1.0.0",
   "description": "Búsqueda Fuzzy sobre un Array Object",
-  "main": "index.js",
+  "keywords": [
+    "search",
+    "search deep",
+    "fuzzy"
+  ],
+  "engines": {
+    "node": ">= 0.1"
+  },
+  "main": "./lib/node-fuzzy",
   "directories": {
     "test": "test"
   },
@@ -13,10 +21,16 @@
     "type": "git",
     "url": "git+https://github.com/peraferrer/node-fuzzy.git"
   },
-  "author": "",
+  "author": "Germán Peraferrer",
+  "maintainers": [
+    "peraferrer <gperaferrer@gmail.com>"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/peraferrer/node-fuzzy/issues"
   },
-  "homepage": "https://github.com/peraferrer/node-fuzzy#readme"
+  "homepage": "https://github.com/peraferrer/node-fuzzy#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
