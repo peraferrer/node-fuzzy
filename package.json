@@ -1,6 +1,6 @@
 {
   "name": "node-fuzzy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Búsqueda Fuzzy sobre un Array Object",
   "keywords": [
     "search",
